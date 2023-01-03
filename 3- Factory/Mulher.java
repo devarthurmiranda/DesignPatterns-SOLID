@@ -1,4 +1,4 @@
-//Classe de sexo que é acionada de acordo com o parâmetro passado na factory.
+// Classe de sexo que é acionada de acordo com o parâmetro passado na factory.
 public class Mulher extends Pessoa {
     public Mulher(String nome) {
         super.nome = nome;
