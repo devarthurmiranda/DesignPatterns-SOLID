@@ -1,6 +1,6 @@
 public class TesteCalculadora{
     public static void main(String[] args) {
-        //Testando o Sistema
+        // Testando o Sistema
         CalculadoraDeImpostos calculadora = new CalculadoraDeImpostos();
         FactoryImposto factory = new FactoryImposto();
         Imposto imposto;

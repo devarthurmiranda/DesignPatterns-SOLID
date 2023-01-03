@@ -1,4 +1,4 @@
-//Implementação do imposto específico   
+// Implementação do imposto específico   
 public class ICMS extends AImposto {
 
     AImposto valor;

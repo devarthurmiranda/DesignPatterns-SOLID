@@ -1,6 +1,7 @@
 public class FactoryImposto {
     
-    //Singleton Pattern - Aqui é definido o construtor como privado para que não seja possível criar uma instância da classe FactoryImposto.
+    // Singleton Pattern - Aqui é definido o construtor como privado para que não seja possível criar 
+    // uma instância da classe FactoryImposto.
     private static FactoryImposto factory = null;
     public static FactoryImposto getFactory() {
         if (factory == null) {
@@ -9,7 +10,7 @@ public class FactoryImposto {
         return factory;
     }
 
-    //Factory Method - Aqui é definido o método getImposto que retorna uma instância de Imposto.
+    // Factory Method - Aqui é definido o método getImposto que retorna uma instância de Imposto.
     public Imposto getImposto(String tipo, double valor){
         switch (tipo) {
             case "ICMS":
