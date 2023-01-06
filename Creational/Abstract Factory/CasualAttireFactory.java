@@ -10,15 +10,17 @@ public class CasualAttireFactory extends AttireFactory {
     
     // Métodos de fábrica para deixar claro o que deve ser criado, passando pela interface respectiva.
     @Override
-    public HeadInterface criarRoupaCabeca() {
+    public HeadInterface createHeadClothing() {
         return new Cap();
     }
+    
     @Override
-    public LegInterface criarRoupaPernas() {
-        return new Shorts();
-    }
-    @Override
-    public TorsoInterface criarRoupaTronco() {
+    public TorsoInterface createTorsoClothing() {
         return new Tshirt();
+    }
+    
+    @Override
+    public LegInterface createLegClothing() {
+        return new Shorts();
     }
 }

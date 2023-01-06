@@ -9,12 +9,12 @@ public class PersonFactory {
     }
 
     // Method that returns the respective message + name, according to gender
-    public Person getPessoa(String nome, String sexo){
-        switch(sexo){
+    public Person getPerson(String name, String gender){
+        switch(gender){
             case "M":
-                return new Man(nome);
+                return new Man(name);
             case "F":
-                return new Woman(nome);
+                return new Woman(name);
             default:
                 return null;
         }

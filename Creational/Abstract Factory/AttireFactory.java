@@ -11,7 +11,7 @@ public abstract class AttireFactory {
     }
 
     // Métodos de fábrica para deixar claro o que deve ser criado (nas classes filhas), passando pela interface respectiva.
-    public abstract TorsoInterface criarRoupaTronco();
-    public abstract LegInterface criarRoupaPernas();
-    public abstract HeadInterface criarRoupaCabeca();
+    public abstract TorsoInterface createTorsoClothing();
+    public abstract LegInterface createLegClothing();
+    public abstract HeadInterface createHeadClothing();
 }

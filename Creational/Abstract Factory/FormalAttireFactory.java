@@ -10,15 +10,17 @@ public class FormalAttireFactory extends AttireFactory {
 
     // Métodos de fábrica para deixar claro o que deve ser criado, passando pela interface respectiva.
     @Override
-    public TorsoInterface criarRoupaTronco() {
-        return new Shirt();
-    }
-    @Override
-    public HeadInterface criarRoupaCabeca() {
+    public HeadInterface createHeadClothing() {
         return new Hat();
     }
+
     @Override
-    public LegInterface criarRoupaPernas() {
+    public TorsoInterface createTorsoClothing() {
+        return new Shirt();
+    }
+    
+    @Override
+    public LegInterface createLegClothing() {
         return new Pants();
     }
 }

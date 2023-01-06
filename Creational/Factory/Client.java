@@ -2,7 +2,7 @@
 public class Client {
     public static void main(String[] args) {
         PersonFactory factory = PersonFactory.getFactory();
-        factory.getPessoa("Arthur", "M");
-        factory.getPessoa("Esdeath", "F");
+        factory.getPerson("Arthur", "M");
+        factory.getPerson("Esdeath", "F");
     }
 }
