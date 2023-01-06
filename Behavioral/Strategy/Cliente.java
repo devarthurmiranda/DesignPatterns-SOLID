@@ -1,4 +1,4 @@
-public class TesteCalculadora{
+public class Cliente{
     public static void main(String[] args) {
         // Testando o Sistema
         CalculadoraDeImpostos calculadora = new CalculadoraDeImpostos();
