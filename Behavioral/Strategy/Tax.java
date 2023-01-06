@@ -2,6 +2,6 @@
 // sem a necessidade de alterar a classe CalculadoraDeImpostos.
 public interface Tax {
 
-    double calcular();
+    double calculate();
     
 }

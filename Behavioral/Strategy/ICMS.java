@@ -1,15 +1,15 @@
 // Implementação do imposto específico   
 public class ICMS extends ATax {
 
-    ATax valor;
+    ATax value;
 
-    public ICMS(double valor){
-        super.valor = valor;
+    public ICMS(double value){
+        super.value = value;
     }
 
     @Override
-    public double calcular() {
-        return super.valor * 0.2;
+    public double calculate() {
+        return super.value * 0.2;
     }
 
 }

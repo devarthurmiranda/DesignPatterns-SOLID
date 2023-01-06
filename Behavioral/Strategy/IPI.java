@@ -1,15 +1,15 @@
 // Implementação do imposto específico
 public class IPI extends ATax {
 
-     ATax valor;
+     ATax value;
 
-    public IPI(double valor){
-        super.valor = valor;
+    public IPI(double value){
+        super.value = value;
     }
 
     @Override
-    public double calcular() {
-        return super.valor * 0.5 ;
+    public double calculate() {
+        return super.value * 0.5 ;
     }
 
 }
