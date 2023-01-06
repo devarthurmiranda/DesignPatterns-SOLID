@@ -1,7 +1,7 @@
 // Implementação do imposto específico   
-public class ICMS extends AImposto {
+public class ICMS extends ATax {
 
-    AImposto valor;
+    ATax valor;
 
     public ICMS(double valor){
         super.valor = valor;

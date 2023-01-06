@@ -1,7 +1,7 @@
 // Implementação do imposto específico
-public class IPI extends AImposto {
+public class IPI extends ATax {
 
-     AImposto valor;
+     ATax valor;
 
     public IPI(double valor){
         super.valor = valor;

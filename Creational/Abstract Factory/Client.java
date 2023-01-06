@@ -1,9 +1,9 @@
 // Cliente do sistema.
 public class Client {
     public static void main(String[] args) {
-        FactoryTraje factory_casual = FactoryTraje.getFactory("casual");
-        FactoryTraje factory_formal = FactoryTraje.getFactory("formal");
-        Manequim manequim = new Manequim();
+        AttireFactory factory_casual = AttireFactory.getFactory("casual");
+        AttireFactory factory_formal = AttireFactory.getFactory("formal");
+        Mannequin manequim = new Mannequin();
         manequim.colocarRoupa(factory_casual);
         manequim.mostraRoupa();
         manequim.colocarRoupa(factory_formal);
