@@ -1,5 +1,5 @@
 public class FactoryPessoa {
-    // Padrão singleton para garantir que só exista uma instância da classe.
+    // Singleton pattern to ensure that there is only one instance of the class
     private static FactoryPessoa factory = null;
     public static FactoryPessoa getFactory() {
         if(factory == null){
@@ -8,7 +8,7 @@ public class FactoryPessoa {
         return factory;
     }
 
-    // Método que retorna a respectiva mensagem + nome, de acordo com o sexo.
+    // Method that returns the respective message + name, according to gender
     public Pessoa getPessoa(String nome, String sexo){
         switch(sexo){
             case "M":

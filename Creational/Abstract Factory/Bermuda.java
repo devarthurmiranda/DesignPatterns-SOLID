@@ -1,5 +1,5 @@
 public class Bermuda implements InterfacePernas {
-    // Implementação da interface de pernas.
+    // Legs interface implementation
     public Bermuda() {
         System.out.println("Criou uma bermuda!");
     }

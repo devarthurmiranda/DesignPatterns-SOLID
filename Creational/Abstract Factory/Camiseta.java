@@ -1,5 +1,5 @@
 public class Camiseta implements InterfaceTronco {
-    // Implementação da interface de tronco.
+    // Implementation of the torso interface
     public Camiseta() {
         System.out.println("Criou uma camiseta!");
     }

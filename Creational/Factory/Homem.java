@@ -1,4 +1,4 @@
-// Classe de sexo que é acionada de acordo com o parâmetro passado na factory.
+// Gender class that is triggered according to the parameter passed in the factory
 public class Homem extends Pessoa {
     public Homem(String nome) {
         super.nome = nome;

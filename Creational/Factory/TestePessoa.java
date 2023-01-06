@@ -1,4 +1,4 @@
-// Cliente do sistema.
+// System client
 public class TestePessoa {
     public static void main(String[] args) {
         FactoryPessoa factory = FactoryPessoa.getFactory();

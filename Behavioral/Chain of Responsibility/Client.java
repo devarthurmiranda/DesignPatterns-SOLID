@@ -12,7 +12,7 @@ public class Client {
         server.register("admin@example.com", "admin_pass");
         server.register("user@example.com", "user_pass");
 
-        // Todos os elos estão linkados. O cliente pode construir várias correntes usando os mesmos componentes.
+        // Todos os elos estão linkados. O cliente pode construir várias correntes usando os mesmos componentes
         Middleware middleware = Middleware.link(
             new ThrottlingMiddleware(2),
             new UserExistsMiddleware(server),

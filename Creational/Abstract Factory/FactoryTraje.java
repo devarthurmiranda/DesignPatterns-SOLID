@@ -1,5 +1,5 @@
 public abstract class FactoryTraje {
-    // Abstraindo o método de criação que será utilizado para o padrão Singleton nas classes filhas.
+    // Abstracting the creation method that will be used for the Singleton pattern in child classes
     public static FactoryTraje getFactory(String tipo) {
         if (tipo.equals("casual")) {
             return FactoryTrajeCasual.getFactory();

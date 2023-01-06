@@ -1,5 +1,5 @@
 public class Calca implements InterfacePernas {
-    // Implementação da interface de pernas.
+    // Legs interface implementation
     public Calca() {
         System.out.println("Criou uma calca!");
     }
