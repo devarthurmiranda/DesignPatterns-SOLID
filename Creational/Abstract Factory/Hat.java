@@ -1,5 +1,5 @@
 public class Hat implements HeadInterface {
-    // Implementação da interface de cabeça.
+    // Implementation of the head interface
     public Hat() {
         System.out.println("Hat created!");
     }

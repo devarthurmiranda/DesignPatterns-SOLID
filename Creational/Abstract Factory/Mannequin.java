@@ -4,12 +4,12 @@ public class Mannequin {
     LegInterface legs;
     
 
-    // Construtor de manequim (sem roupa específica), que irá mostrar mensagem quando o objeto for criado.
+    // Mannequin builder (no specific outfit), which will show message when the object is created
     public Mannequin() {
         System.out.println("\nCreating mannequin without clothes...");
     }
 
-    // Método para colocar roupa no manequim, onde
+    // Method for putting clothes on the mannequin
     public void putClothes(AttireFactory factory) {
         System.out.println("\nPutting clothes on the mannequin...");
         this.head = factory.createHeadClothing();
@@ -17,7 +17,7 @@ public class Mannequin {
         this.legs = factory.createLegClothing();
     }
 
-    // Mostra o objeto concreto (roupa) que foi criado, junto com seu endereço.
+    // Shows the concrete object (clothing) that was created, along with its address
     public void showClothing() {
         System.out.println("Head:  " + this.head);
         System.out.println("Torso: " + this.torso);

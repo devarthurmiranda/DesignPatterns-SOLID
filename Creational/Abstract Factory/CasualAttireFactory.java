@@ -8,7 +8,7 @@ public class CasualAttireFactory extends AttireFactory {
         return factory;
     }
     
-    // Métodos de fábrica para deixar claro o que deve ser criado, passando pela interface respectiva.
+    // Factory methods to make it clear what should be created, going through the respective interface.
     @Override
     public HeadInterface createHeadClothing() {
         return new Cap();

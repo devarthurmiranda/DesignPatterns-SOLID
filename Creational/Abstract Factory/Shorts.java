@@ -1,5 +1,5 @@
 public class Shorts implements LegInterface {
-    // Legs interface implementation
+    // Implementation of the legs interface
     public Shorts() {
         System.out.println("Short created!");
     }

@@ -10,7 +10,7 @@ public abstract class AttireFactory {
         }
     }
 
-    // Métodos de fábrica para deixar claro o que deve ser criado (nas classes filhas), passando pela interface respectiva.
+    // Factory methods to make it clear what should be created, going through the respective interface
     public abstract TorsoInterface createTorsoClothing();
     public abstract LegInterface createLegClothing();
     public abstract HeadInterface createHeadClothing();
