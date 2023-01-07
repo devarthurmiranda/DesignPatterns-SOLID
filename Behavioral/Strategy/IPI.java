@@ -1,4 +1,4 @@
-// Implementação do imposto específico
+// Implementation of the specific tax
 public class IPI extends ATax {
 
      ATax value;

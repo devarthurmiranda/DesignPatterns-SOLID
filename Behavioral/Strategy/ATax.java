@@ -1,4 +1,4 @@
-// Esta classe abstrata implementa imposto a fim de generalizar os métodos de cálculo de impostos.
+// This abstract class implements tax in order to generalize tax calculation methods
 public abstract class ATax implements Tax{
 
     protected double value;
