@@ -21,7 +21,7 @@ public class ThrottlingMiddleware extends Middleware {
         
         if (request > requestPerMinute) {
             System.out.println("Request limit exceeded!");
-            Thread.currentThread().stop();
+            Thread.currentThread().interrupt();
         }
         
         return checkNext(email, password);
