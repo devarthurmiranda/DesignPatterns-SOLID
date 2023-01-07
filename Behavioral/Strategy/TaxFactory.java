@@ -1,7 +1,7 @@
 public class TaxFactory {
     
     // Singleton Pattern - Here the constructor is set to private so that it is not possible to create
-    // an instance of the FactoryImposto class
+    // an instance of the taxFactory class
     private static TaxFactory factory = null;
     public static TaxFactory getFactory() {
         if (factory == null) {
@@ -11,12 +11,12 @@ public class TaxFactory {
     }
 
     // Factory Method - Here, the getTax method is defined, which returns an instance of Tax
-    public Tax getImposto(String tipo, double valor){
-        switch (tipo) {
+    public Tax getTax(String tipo, double value){
+        switch (type) {
             case "ICMS":
-                return new ICMS(valor);
+                return new ICMS(value);
             case "IPI":
-                return new IPI(valor);
+                return new IPI(value);
         }
         return null;
     }
