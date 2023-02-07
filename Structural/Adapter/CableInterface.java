@@ -1,5 +1,5 @@
 package Structural.Adapter;
 
-public class CableInterface {
-    public void connect(){}
+public interface CableInterface {
+    public void connectToUsb();
 }

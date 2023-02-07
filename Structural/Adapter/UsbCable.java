@@ -1,8 +1,9 @@
 package Structural.Adapter;
 
-public class UsbCable {
+public class UsbCable implements CableInterface {
 
-    public void connect() {
+    public void connectToUsb() {
+        System.out.println("UsbCable connected to UsbEntry");
     }
     
 }
