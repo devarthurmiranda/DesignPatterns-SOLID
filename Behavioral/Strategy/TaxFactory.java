@@ -11,7 +11,7 @@ public class TaxFactory {
     }
 
     // Factory Method - Here, the getTax method is defined, which returns an instance of Tax
-    public Tax getTax(String tipo, double value){
+    public Tax getTax(String type, double value){
         switch (type) {
             case "ICMS":
                 return new ICMS(value);
