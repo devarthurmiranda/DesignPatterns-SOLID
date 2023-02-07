@@ -1,3 +1,4 @@
+
 public class Singleton {
     // Instance in singleton must be private
     private static Singleton instance = null;

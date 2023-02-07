@@ -1,5 +1,5 @@
 package Structural.Proxy;
 
-public class Proxy {
+public class Client {
     
 }
