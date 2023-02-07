@@ -8,5 +8,5 @@ public class UsbCableAdapter {
     public void connectToUsb(CableInterface cable) {
         System.out.println(cable + " connected to UsbEntry!");
     }
-    
+
 }
