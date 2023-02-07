@@ -9,10 +9,6 @@ public class CasualAttireFactory extends AttireFactory {
     }
     
     // Factory methods to make it clear what should be created, going through the respective interface.
-    @Override
-    public HeadInterface createHeadClothing() {
-        return new Cap();
-    }
     
     @Override
     public TorsoInterface createTorsoClothing() {
