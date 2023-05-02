@@ -1,3 +1,3 @@
-<h1>SOLID design patterns</h1>
-
-<img src="https://user-images.githubusercontent.com/83318673/194084363-b42c1f54-6682-44ad-bd51-1d262bf8f25b.png">
+<h2 align="center"> About </h2>
+<p>  </p>
+<br>
