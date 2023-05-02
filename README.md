@@ -9,10 +9,16 @@
 <h2 align="center"> Patterns Already Implemented </h2>
 
 - Behavioral
-  - aaa
+  - Strategy
+  - Chain of Responsability
   
 - Creational
-  - aaa
+  - Singleton
+  - Factory
+  - Abstract Factory
   
 - Structural
-  - aaaa
+  - Proxy
+  - Adapter
+
+<p>*Note: They are ordered according to what I would learn first*</p>
